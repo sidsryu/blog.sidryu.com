@@ -1,2 +1,2 @@
 # blog.sidryu.com
-Blog.SidRyu.com site source
+Blog.SidRyu.com web site source
