@@ -2,4 +2,4 @@
 
 [Blog.SidRyu.com][blog] web site source
 
-[blog] : http://blog.sidryu.com
+[blog]: http://blog.sidryu.com
