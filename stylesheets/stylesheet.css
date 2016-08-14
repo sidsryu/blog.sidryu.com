@@ -97,6 +97,11 @@ p {
   margin: 10px 0 15px 0;
 }
 
+header p {
+  margin: 0;
+  color: #f2f2f2;
+}
+
 footer p {
   color: #f2f2f2;
 }
@@ -235,7 +240,7 @@ hr {
   height: 1px;
   margin-bottom: 5px;
   border: none;
-  background: url('../images/bg_hr.png') repeat-x center;
+  background: url('../images/bg_hr.png') repeat-x center;              
 }
 
 table {
@@ -301,7 +306,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 0px 10px;
 }
 
 #project_title {
@@ -313,11 +318,16 @@ Full-Width Styles
 }
 
 #project_tagline {
+  margin: 0;
   color: #fff;
   font-size: 24px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+}
+
+#navigation_bar {
+  text-align: right;
 }
 
 #downloads {
