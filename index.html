@@ -2,13 +2,10 @@
 layout: default
 ---
 {% for post in site.posts %}
-<article class="post">
-    <div class="main-content" itemprop="articleBody">
-        <a class="post-link" href=".{{ post.url }}"><h3 class="post-title" itemprop="name headline">{{ post.title }}</h3></a>
-
-        {{ post.content }}
-
-        <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
-    </div>
+<article>
+    <header>
+        <h1>{{ post.title }}</h1>
+    </header>    
+    {{ post.content }}    
 </article>
 {% endfor %}

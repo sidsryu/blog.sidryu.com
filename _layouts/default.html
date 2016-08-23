@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html>
-
-{% include head.html %}
-
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Sid Ryu : Game and Working Ideas</title>
+    <link rel="stylesheet" href="{{ site.url }}/stylesheets/styles.css">    
+</head>
 <body>
-    {% include header.html %}
-
-    <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner">
-            {{ content }}
-        </section>
-    </div>
-
-    {% include footer.html %}
+    <header>
+        <h1>Sid Ryu</h1>
+        <h2>Game and Working Ideas</h2>
+        <nav>
+            ideas |
+            inspirations |
+            game making made easy
+        </nav>
+    </header>    
+    {{ content }}     
+    <footer>
+    </footer>
 </body>
 </html>
