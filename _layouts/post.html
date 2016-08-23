@@ -1,15 +1,9 @@
 ---
 layout: default
 ---
-<article class="post">
-
-  <div class="main-content" itemprop="articleBody">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-
-    {{ content }}
-  </div>
-
-  <a href="javascript:history.back()"><p style="text-align: center;">< back<p></p></a>
-
+<article>
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>    
+    {{ page.content }}    
 </article>
