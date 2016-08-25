@@ -5,4 +5,4 @@ url: http://blog.sidryu.com
 exclude:
   - README.md
 
-show_drafts: true
+show_drafts: false
