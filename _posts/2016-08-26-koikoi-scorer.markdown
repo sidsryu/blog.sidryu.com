@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 코이코이 점수 계산기
+category: Game making made easy
+license: gpl
 ---
 [koikoi-scorer @ GitHub][github]
 
