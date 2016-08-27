@@ -2,7 +2,10 @@ name: Sid Ryu
 description: Game and working ideas
 url: http://blog.sidryu.com
 
+permalink: /:year/:month/:day/:title.html
+
 exclude:
   - README.md
+  - LICENSE
 
 show_drafts: false

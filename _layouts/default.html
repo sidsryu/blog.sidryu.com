@@ -2,23 +2,31 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta neme="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Sid Ryu : Game and Working Ideas</title>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">    
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/style.css">
 </head>
 <body>
     <header>
         <h1>Sid Ryu</h1>
         <h2>Game and Working Ideas</h2>
-        <nav>
-            <ul>
-                <li>ideas</li>
-                <li>inspirations</li>
-                <li>game maing made easy</li>
+        <nav class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a heref="#" class="pure-menu-link">Ideas</a></li>
+                <li class="pure-menu-item"><a heref="#" class="pure-menu-link">Inspirations</a></li>
+                <li class="pure-menu-item"><a heref="#" class="pure-menu-link">Game maing made easy</a></li>
             </ul>
         </nav>
     </header>    
-    {{ content }}     
+    {{ content }}
     <footer>
+        <p>
+            This site is powered by Jekyll, GitHub and Pure.css<br>
+            All content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless otherwise stated.
+        </p>
     </footer>
 </body>
 </html>
