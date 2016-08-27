@@ -1,3 +1,19 @@
+@media screen and (max-device-width:736px) {
+    html {
+        font-size: 2em;
+    }
+
+    .pure-menu-horizontal {
+        display: inline-block;
+    }
+    .pure-menu-horizontal .pure-menu-list {
+        display: block;
+    }
+    .pure-menu-horizontal .pure-menu-item {
+        display: block;
+    }
+}
+
 html {
     background: #35777d;
 }
