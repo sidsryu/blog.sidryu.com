@@ -6,6 +6,9 @@ layout: default
         <h1>{{ page.title }}</h1>
         <h2>{{ page.date | date: "%Y-%m-%d" }}</h2>
         <h2>{{ page.category }}</h2>
+        {% if page.license %}
+        <h2>{{ page.license }}</h2>
+        {% endif %}
     </header>
     {{ page.content }}    
 </article>

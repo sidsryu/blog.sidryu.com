@@ -2,7 +2,7 @@
 layout: post
 title: 코이코이 점수 계산기
 category: Game making made easy
-license: gpl
+license: GPLv3
 ---
 [koikoi-scorer @ GitHub][github]
 
@@ -145,6 +145,12 @@ license: gpl
 
 이런 자잘한 부분들은 선택 가능하도록 별도로 분리했습니다.
 이후 추가될 닌텐도 이외의 규칙들은 모두 선택 규칙으로 포함될 겁니다.
+
+
+## 주의
+
+삽입된 화투 이미지는 GPLv3 라이센스입니다.
+따라서 이 글도 동일 라이센스를 따릅니다.
 
 
 <br>끝.
